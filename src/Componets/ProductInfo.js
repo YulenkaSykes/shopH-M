@@ -29,25 +29,28 @@ const ProductInfo = () => {
   }, []);
   return (
     <div>
-      <h1>Product Info, code:{code}</h1>
-      <div className="column">
-        <h1>Good Info, code: {code}</h1>
+      <div>
+        <h1 className="loader">Product Info, code: {code}</h1>
         {info ? (
-          <div className="row good-info">
+          <div className="product_info row">
             <img src={good.images[0].url} alt="good" />
-            <div className="column">
+            <div className="product_text_info">
               <h1>{info.name}</h1>
               <p>{info.description}</p>
-              <div className="row" style={{ width: "50vw" }}>
+              <div className="row" style={{ width: "10vw" }}>
                 <span>Color:</span>
                 <span
                   className="color"
-                  style={{ background: `${info?.color.rgbColor}` }}
+                  style={{ background: `${info.color.rgbColor}` }}
                 ></span>
               </div>
               <span>Made in {info.countryOfProduction}</span>
               <span>Price: {`${info.whitePrice.price}`}</span>
-              <button onClick={() => window.history.back()}>Back</button>
+              <div>
+                <button className="back" onClick={() => window.history.back()}>
+                  Back
+                </button>
+              </div>
             </div>
           </div>
         ) : (

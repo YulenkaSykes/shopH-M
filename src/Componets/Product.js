@@ -73,7 +73,11 @@ const Product = () => {
                     </span>
                   )}
                   <p>Category {product.categoryName}</p>
-                  <Link to={`/productInfo/${product.articles[0].code}`}>
+                  <Link
+                    className="more row"
+                    style={{ color: "black" }}
+                    to={`/productInfo/${product.articles[0].code}`}
+                  >
                     More
                   </Link>
                 </div>

@@ -50,7 +50,7 @@ header a:hover{
     border: 1px solid orange;
     border-radius: 10px;
 }
-.button_r_l{
+.back, .button_r_l{
     /* animation: append 2s linear1; */
     width: 70px;
     height: 30px;
@@ -120,6 +120,20 @@ header a:hover{
     border-radius: 10px;
 
 }
+.product_info{
+    background-color: white;
+    margin: 10px;
+}
+.product_text_info{
+    font-size: 20px;
+    margin: 15px;
+}
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
 
 
   
