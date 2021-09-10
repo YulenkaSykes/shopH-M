@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
+body{
+    background: url(the-fruit-3134631_1920.jpg);
+    background-size: 100% auto;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: 'Besley', serif;
+}
+.App{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: rgba(236, 146, 29, 0.5);
+    width: 100%;
+    height: 70px;    
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* center */
+header a{
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid rgb(238, 136, 19);
+    border-radius: 50px; 
+}
+header a:hover{
+    box-shadow: 0 0 2px 0 #ffffff inset, 0 0 2px 2px #f84316;
+}
+.button_r_l:hover{
+    box-shadow: 0 0 2px 0 #ffffff inset, 0 0 2px 2px #f84316;
+}
+.register_Login{
+    animation: append 2s linear 1;
+    flex-direction: column; 
+    background-color: rgba(238, 145, 24, 0.7);
+    margin: 200px 200px 0px 200px;
+    height: 200px;
+}
+/* 1.up  2.right 3.down 4.left*/
+.input_r_l{
+    margin: 7px;
+    width: 35%;
+    height: 25px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+.button_r_l{
+    /* animation: append 2s linear1; */
+    width: 70px;
+    height: 30px;
+    color: white;
+    border: 1px solid rgb(255, 94, 0);
+    background-color: rgb(255, 94, 0);
+    border-radius: 10px;
+    font-family: 'Besley', serif;
+    cursor: pointer;
+}
+.card-wrapper{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card, .cart{
+    width: 360px;
+    height: 670px;
+    background-color: rgba(236, 146, 29, 0.75);
+    margin: 20px;
+    font-size: 17px;
+    padding: 4px;
+}
+.info_person{
+    display: flex;
+    justify-content: end;
+    margin: -40px 5px;  
+}
+.btn_person{
+    width: 70px;
+    height: 30px;
+    color: white;
+    margin-left: 20px;
+    border: 1px solid rgb(255, 94, 0);
+    background-color: rgb(255, 94, 0);
+    border-radius: 10px;
+    font-family: 'Besley', serif;
+    cursor: pointer;   
+}
+.icon_i{
+    margin-left: 50%;
+    border: 3px solid orange;
+    border-radius: 50%;
+    padding: 3px;
+    color: rgb(255, 115, 0);
+    background-color: white;
+}
+.sale{
+    background-color: rgb(167, 0, 0);
+    width: 40px;
+    height: 40px;
+}
+.loader{
+    background-color: rgba(255, 115, 0, 0.5);
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+.pagination{
+    background-color: rgba(255, 115, 0, 0.76);
+    cursor: pointer;
+}
+.pagination .active{
+    background-color: rgb(248, 69, 15);
+    width: 15px;
+    border: 3px solid orange;
+    border-radius: 10px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
