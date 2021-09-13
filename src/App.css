@@ -36,11 +36,11 @@ header a:hover{
     box-shadow: 0 0 2px 0 #ffffff inset, 0 0 2px 2px #f84316;
 }
 .register_Login{
-    animation: append 2s linear 1;
+    animation: append 1s linear 1;
     flex-direction: column; 
     background-color: rgba(238, 145, 24, 0.7);
-    margin: 200px 200px 0px 200px;
-    height: 200px;
+    margin: 15% 30% 0% 30%;
+    height: 230px;
 }
 /* 1.up  2.right 3.down 4.left*/
 .input_r_l{
@@ -51,7 +51,6 @@ header a:hover{
     border-radius: 10px;
 }
 .back, .button_r_l{
-    /* animation: append 2s linear1; */
     width: 70px;
     height: 30px;
     color: white;
@@ -101,8 +100,10 @@ header a:hover{
 }
 .sale{
     background-color: rgb(167, 0, 0);
+    border-radius: 20px;
     width: 40px;
     height: 40px;
+    padding: 2px;
 }
 .loader{
     background-color: rgba(255, 115, 0, 0.5);
@@ -134,6 +135,13 @@ header a:hover{
     border-radius: 50%;
   }
   
+  @media screen and (max-width: 1100px) and (min-width: 768px){
+      .register_Login{
+        margin: 200px 200px 0px 200px;
+        height: 250px;
+        /* background-color: rgba(29, 236, 39, 0.5); */
+      }
+  }
 
 
   

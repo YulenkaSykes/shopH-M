@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { useReducer, createContext, useEffect } from "react";
 import Login from "./Componets/Login";
 import Register from "./Componets/Register";
-import Main from "./Componets/Main";
 import Product from "./Componets/Product";
 import { Icon } from "@material-ui/core";
 import Cart from "./Componets/Cart";
@@ -83,13 +82,10 @@ function App() {
           <header>
             <div className="row">
               <Link to="/">
-                <span>Main</span>
+                <span>Register</span>
               </Link>
               <Link to="/login">
                 <span>Login</span>
-              </Link>
-              <Link to="/register">
-                <span>Register</span>
               </Link>
               <Link to="/product">
                 <span>Product</span>
@@ -112,13 +108,10 @@ function App() {
         </div>
         <Switch>
           <Route path="/" exact>
-            <Main />
+            <Register />
           </Route>
           <Route path="/login">
             <Login />
-          </Route>
-          <Route path="/register">
-            <Register />
           </Route>
           <Route path="/product">
             <Product />
