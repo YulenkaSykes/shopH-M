@@ -39,7 +39,7 @@ header a:hover{
     animation: append 1s linear 1;
     flex-direction: column; 
     background-color: rgba(238, 145, 24, 0.7);
-    margin: 15% 30% 0% 30%;
+    margin: 15% 35% 0% 35%;
     height: 230px;
 }
 /* 1.up  2.right 3.down 4.left*/
@@ -135,11 +135,9 @@ header a:hover{
     border-radius: 50%;
   }
   
-  @media screen and (max-width: 1100px) and (min-width: 768px){
+  @media screen and (max-width: 1200px) and (min-width: 768px){
       .register_Login{
-        margin: 200px 200px 0px 200px;
-        height: 250px;
-        /* background-color: rgba(29, 236, 39, 0.5); */
+        margin: 15% 15% 0% 15%;
       }
   }
 
