@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shopHM/static/css/main.09aa4c93.chunk.css",
+    "main.js": "/shopHM/static/js/main.784a6749.chunk.js",
+    "main.js.map": "/shopHM/static/js/main.784a6749.chunk.js.map",
+    "runtime-main.js": "/shopHM/static/js/runtime-main.9aca3d07.js",
+    "runtime-main.js.map": "/shopHM/static/js/runtime-main.9aca3d07.js.map",
+    "static/js/2.d91c3c2d.chunk.js": "/shopHM/static/js/2.d91c3c2d.chunk.js",
+    "static/js/2.d91c3c2d.chunk.js.map": "/shopHM/static/js/2.d91c3c2d.chunk.js.map",
+    "static/js/3.b45a1dcf.chunk.js": "/shopHM/static/js/3.b45a1dcf.chunk.js",
+    "static/js/3.b45a1dcf.chunk.js.map": "/shopHM/static/js/3.b45a1dcf.chunk.js.map",
+    "index.html": "/shopHM/index.html",
+    "static/css/main.09aa4c93.chunk.css.map": "/shopHM/static/css/main.09aa4c93.chunk.css.map",
+    "static/js/2.d91c3c2d.chunk.js.LICENSE.txt": "/shopHM/static/js/2.d91c3c2d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/shopHM/static/media/the-fruit-3134631_1920.018c10ae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9aca3d07.js",
+    "static/js/2.d91c3c2d.chunk.js",
+    "static/css/main.09aa4c93.chunk.css",
+    "static/js/main.784a6749.chunk.js"
+  ]
+}
